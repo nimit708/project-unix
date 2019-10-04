@@ -1,7 +1,6 @@
 #!/bin/usr/env bash
 # File: guessinggame.sh
 # NOTE: THIS PROGRAM MIGHT ALSO INCLUDE "/." AND "/.." AS A FILE
-# I TRIED TO CHANGE THIS BUT COULD GET THIS ONLY
 
 function guessinggame {
   linesFoundInActual=$(ls -a | wc -l)
